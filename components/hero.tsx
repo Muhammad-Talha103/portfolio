@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import MainImage from "@/app/images/talha.png";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -20,13 +21,14 @@ const Hero = () => {
         <h2 className="text-sm -mt-5 font-medium text-start ml-10 text-gray-600">
           Frontend Developer & Web Designer
         </h2>
-
+      <Link href="contact">
         <button
           className="rounded-lg text-black w-24 font-bold mt-10 ml-20 px-3 py-3 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl duration-300"
           style={{ backgroundImage: "linear-gradient(#f4bb1e, #f4bb1e)" }}
-        >
+          >
           Contact
         </button>
+          </Link>
       </div>
 
       <div className="bg-white mt-10 h-96 w-full md:w-full flex items-center justify-end relative overflow-hidden">
