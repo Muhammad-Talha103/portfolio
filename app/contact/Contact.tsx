@@ -50,31 +50,7 @@ const SignUp: React.FC = () => {
     setErrEmail("");
     setErrMessage("");
     
-    let hasError = false;
 
-    // Validate userName
-    if (!userName) {
-      setErrUserName("Enter your name");
-      hasError = true;
-    } else if (userName.length > 15) {
-      setErrUserName("Name should not exceed 15 characters.");
-      hasError = true;
-    }
-    
-    // Validate email
-    if (!email) {
-      setErrEmail("Enter your email");
-      hasError = true;
-    } else if (!emailValidation(email)) {
-      setErrEmail("Enter a valid email");
-      hasError = true;
-    } else if (email.length > 25) {
-      setErrEmail("Email should not exceed 25 characters."); // Corrected length
-      hasError = true;
-    }
-    
-    // Validate password
-  
 
     
   };
