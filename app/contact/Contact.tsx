@@ -1,9 +1,7 @@
 "use client";
-import Image from "next/image";
-import { FaCaretRight } from "react-icons/fa6";
-import Link from "next/link";
 
-import { useEffect, useState } from "react";
+
+import {  useState } from "react";
 
 const SignUp: React.FC = () => {
 

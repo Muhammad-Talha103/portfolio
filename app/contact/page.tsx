@@ -1,5 +1,5 @@
 import React from 'react'
-import Contact from './Contact'
+import Contact from '../contact/Contact'
 
 const Home = () => {
   return (
