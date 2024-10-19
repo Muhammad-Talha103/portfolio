@@ -41,11 +41,7 @@ const SignUp: React.FC = () => {
     setErrEmail("");
   };
 
-  const handlePassword = (e: React.ChangeEvent<HTMLInputElement>) => {
-    e.preventDefault();
-    setMessage(e.target.value);
-    setErrMessage("");
-  };
+
 
   // Main registration handler
   const handleRegistration = (e: React.FormEvent<HTMLFormElement>) => {
