@@ -68,7 +68,7 @@ const Navbar = () => {
               <Link href="/about" onClick={toggleMenu}>About</Link>
             </li>
             <li>
-              <Link href="/services" onClick={toggleMenu}>Services</Link>
+              <Link href="/project" onClick={toggleMenu}>Projects</Link>
             </li>
             <li>
               <Link href="/contact" onClick={toggleMenu}>Contact</Link>
