@@ -8,7 +8,7 @@ const SignUp: React.FC = () => {
   // State variables for user input and error messages
   const [userName, setUserName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
-  const [message, setMessage] = useState<string>("");
+
   
 
 
@@ -40,8 +40,6 @@ const SignUp: React.FC = () => {
     setEmail(e.target.value);
     setErrEmail("");
   };
-
-
 
   // Main registration handler
   const handleRegistration = (e: React.FormEvent<HTMLFormElement>) => {
@@ -76,12 +74,7 @@ const SignUp: React.FC = () => {
     }
     
     // Validate password
-    if (!message) {
-        setErrMessage("Enter Message ");
-      hasError = true;
-    } 
-    
-    
+  
 
     
   };
@@ -135,7 +128,7 @@ const SignUp: React.FC = () => {
               <div className="flex flex-col">
                 <p className="text-sm font-medium mb-1">Message</p>
                 <textarea
-  value={message}
+
   className="w-full text-sm bg-white outline-none border border-zinc-400 py-1.5 h-40 px-3 focus:border-yellow-500 resize-none"
   rows={4} // Adjust the number of rows as needed
 />
