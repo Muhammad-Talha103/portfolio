@@ -1,9 +1,10 @@
 
 import Link from 'next/link';
 import React from 'react';
-import { FaFacebookF } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
+
+import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -25,6 +26,7 @@ const Footer = () => {
           </Link>
           <Link href='https://www.linkedin.com/in/muhammad-talha-aa1429240/'  className="ml-6 text-gray-500 text-xl" target='blank'>
            <FaLinkedinIn/>
+
           </Link>
          
         </span>

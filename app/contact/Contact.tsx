@@ -5,7 +5,6 @@ import {  useState } from "react";
 
 const SignUp: React.FC = () => {
 
-  // State variables for user input and error messages
   const [userName, setUserName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
 
@@ -19,20 +18,11 @@ const SignUp: React.FC = () => {
 
   
 
-  // Handlers for input changes
+ 
   const handleUserName = (e: React.ChangeEvent<HTMLInputElement>) => {
     e.preventDefault();
     setUserName(e.target.value);
     setErrUserName("");
-  };
-
-  const emailValidation = (email: string): boolean => {
-    // Simple regex for email validation
-    return (
-      String(email)
-        .toLowerCase()
-        .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/) !== null
-    );
   };
 
   const handleEmail = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -41,11 +31,11 @@ const SignUp: React.FC = () => {
     setErrEmail("");
   };
 
-  // Main registration handler
+  
   const handleRegistration = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // Clear previous error messages
+  
     setErrUserName("");
     setErrEmail("");
     setErrMessage("");
@@ -106,7 +96,7 @@ const SignUp: React.FC = () => {
                 <textarea
 
   className="w-full text-sm bg-white outline-none border border-zinc-400 py-1.5 h-40 px-3 focus:border-yellow-500 resize-none"
-  rows={4} // Adjust the number of rows as needed
+  rows={4} 
 />
 
                 <p
