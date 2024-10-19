@@ -8,6 +8,9 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+	  circle:{
+		  background:"#f4bb1e"
+	  },
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',
@@ -56,7 +59,7 @@ const config: Config = {
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
   		}
-  	}
+	}
   },
   plugins: [require("tailwindcss-animate")],
 };

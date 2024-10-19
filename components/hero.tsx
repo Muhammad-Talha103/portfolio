@@ -11,8 +11,8 @@ const Hero = () => {
           Hi, Im
           <br />
           <span
-            className="text-4xl tracking-widest font-extrabold"
-            style={{ color: "#f4bb1e" }}
+            className="text-4xl tracking-widest font-extrabold text-[#f4bb1e] "
+       
           >
             Muhammad Talha
           </span>
@@ -23,8 +23,8 @@ const Hero = () => {
         </h2>
       <Link href="contact">
         <button
-          className="rounded-lg text-black w-24 font-bold mt-10 ml-20 px-3 py-3 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl duration-300"
-          style={{ backgroundImage: "linear-gradient(#f4bb1e, #f4bb1e)" }}
+          className="rounded-lg bg-[#f4bb1e]  text-black w-24 font-bold mt-10 ml-20 px-3 py-3 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl duration-300"
+         
           >
           Contact
         </button>
@@ -33,8 +33,8 @@ const Hero = () => {
 
       <div className="bg-white mt-10 h-96 w-full md:w-full flex items-center justify-end relative overflow-hidden">
         <div
-          className="rounded-full h-[40rem] w-[50rem] flex items-center justify-center absolute bottom-24 right-4 translate-x-1/4 translate-y-1/2"
-          style={{ backgroundImage: "linear-gradient(#f4bb1e, #f4bb1e)" }} // Adjust right here
+          className="rounded-full h-[40rem] w-[50rem] flex items-center justify-center absolute bottom-24 right-4 translate-x-1/4 bg-[#f4bb1e]  translate-y-1/2"
+         
         >
           <div className="rounded-full h-[25rem] w-[25rem] flex items-center justify-center bg-white absolute top-40 left-1/2 transform -translate-x-1/2 -translate-y-1/2 overflow-hidden">
             <Image
@@ -50,8 +50,8 @@ const Hero = () => {
           </div>
           <div className="relative">
             <div
-              className="rounded-full h-16 w-16 flex  items-center justify-center absolute top-[-15rem] left-[-27rem]"
-              style={{ backgroundImage: "linear-gradient(#f4bb1e, #f4bb1e)" }}
+              className="rounded-full bg-[#f4bb1e] h-16 w-16 flex  items-center justify-center absolute top-[-15rem] left-[-27rem]"
+              
             ></div>
           </div>
         </div>
