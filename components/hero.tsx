@@ -38,7 +38,7 @@ style={{ backgroundImage: "linear-gradient(#f4bb1e, #f4bb1e)" }} // Adjust right
 >
 <div className="rounded-full h-[25rem] w-[25rem] flex items-center justify-center bg-white absolute top-40 left-1/2 transform -translate-x-1/2 -translate-y-1/2 overflow-hidden">
   <Image
-    src={MainImage} // Replace with your image URL
+    src={MainImage} 
     alt="Inner Circle"
     width={200}
     height={200}
@@ -47,7 +47,7 @@ style={{ backgroundImage: "linear-gradient(#f4bb1e, #f4bb1e)" }} // Adjust right
 </div>
 <div className="relative">
   <div className="rounded-full h-32 md:h-16 w-32 md:w-16 flex items-center justify-center bg-white absolute bottom-[rem] md:bottom-[-3rem] right-28 md:right-40 transform translate-y-6">
-    {/* Additional element */}
+  
   </div>
 </div>
 <div className="relative">
