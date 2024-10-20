@@ -6,8 +6,8 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div className="md:flex ">
-      <div className="flex mt-10  md:w-[50rem] justify-center ml- flex-col gap-4">
-        <h1 className="text-4xl ml-10 font-bold text-black  text-start">
+      <div className="flex mt-10 px-4 md:w-[50rem] justify-center ml- flex-col gap-4">
+        <h1 className="text-4xl  font-bold text-black  text-start">
           Hi, Im
           <br />
           <span
@@ -18,12 +18,12 @@ const Hero = () => {
           </span>
         </h1>
 
-        <h2 className="text-sm -mt-5 font-medium text-start ml-10 text-gray-600">
+        <h2 className="text-sm -mt-5 font-medium text-start  text-gray-600">
           Frontend Developer & Web Designer
         </h2>
       <Link href="contact">
         <button
-          className="rounded-lg bg-[#f4bb1e]  text-black w-24 font-bold mt-10 ml-20 px-3 py-3 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl duration-300"
+          className="rounded-lg bg-[#f4bb1e]  text-black w-24 font-bold mt-10  px-3 py-3 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl duration-300"
          
           >
           Contact
@@ -31,18 +31,18 @@ const Hero = () => {
           </Link>
       </div>
 
-      <div className="bg-white mt-10 h-96 w-full md:w-full flex items-center justify-end relative overflow-hidden">
+      <div className="bg-white mt-10 h-96 w-full md:w-[70rem]flex items-center justify-end relative overflow-hidden">
         <div
-          className="rounded-full h-[40rem] w-[50rem] flex items-center justify-center absolute bottom-24 right-4 translate-x-1/4 bg-[#f4bb1e]  translate-y-1/2"
+          className="rounded-full h-[40rem] w-[45rem] flex items-center justify-center absolute bottom-28 right-4 translate-x-1/4 bg-[#f4bb1e]  translate-y-1/2"
          
         >
-          <div className="rounded-full h-[25rem] w-[25rem] flex items-center justify-center bg-white absolute top-40 left-1/2 transform -translate-x-1/2 -translate-y-1/2 overflow-hidden">
+          <div className="rounded-full h-[25rem] w-[25rem] flex items-center justify-center bg-white absolute top-40 left-[21rem] transform -translate-x-1/2 -translate-y-1/2 overflow-hidden">
             <Image
               src={MainImage}
               alt="Inner Circle"
-              width={200}
-              height={200}
-              className="h-full w-full absolute top-8 right-2 object-cover rounded-full"
+              width={800}
+              height={800}
+              className="h-96 w-96 absolute top-16 right-10 object-cover rounded-full"
             />
           </div>
           <div className="relative">
@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
           <div className="relative">
             <div
-              className="rounded-full bg-[#f4bb1e] h-16 w-16 flex  items-center justify-center absolute top-[-15rem] left-[-27rem]"
+              className="rounded-full bg-[#f4bb1e] md:flex hidden h-16 w-16   items-center justify-center absolute top-[-16rem] left-[-23rem]"
               
             ></div>
           </div>
