@@ -7,7 +7,6 @@ export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-center mb-8">About Me</h1>
-      
       <div className="flex justify-center mb-8">
         <Image
           src={MainImage}
@@ -17,8 +16,7 @@ export default function AboutPage() {
           className="rounded-lg"
         />
       </div>
-      
-      <div className="grid gap-8 md:grid-cols-2">
+       <div className="grid gap-8 md:grid-cols-2">
         <Card>
           <CardContent className="p-6">
             <h2 className="text-2xl font-semibold mb-4">Qualifications</h2>
@@ -29,7 +27,6 @@ export default function AboutPage() {
             </ul>
           </CardContent>
         </Card>
-        
         <Card>
           <CardContent className="p-8">
             <h2 className="text-2xl font-semibold mb-4">Skills</h2>
